@@ -1,0 +1,27 @@
+{
+  "name": "primer-api-nodejs",
+  "version": "1.0.0",
+  "description": "Mi primer api con node JS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "APrendiz SENA",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.15.3",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
